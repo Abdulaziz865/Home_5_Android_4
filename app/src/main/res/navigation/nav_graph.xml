@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/bitcoinFragment">
+
+    <fragment
+        android:id="@+id/bitcoinFragment"
+        android:name="com.example.home_5_android_4.ui.fragments.everything.EverythingFragment"
+        android:label="fragment_bitcoin"
+        tools:layout="@layout/fragment_everything" />
+    <fragment
+        android:id="@+id/countryFragment"
+        android:name="com.example.home_5_android_4.ui.fragments.topheadlines.TopHeadlinesFragment"
+        android:label="fragment_country"
+        tools:layout="@layout/fragment_top_headlines" />
+    <fragment
+        android:id="@+id/sourceFragment"
+        android:name="com.example.home_5_android_4.ui.fragments.source.SourceFragment"
+        android:label="fragment_source"
+        tools:layout="@layout/fragment_source" />
+</navigation>
